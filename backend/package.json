@@ -1,0 +1,28 @@
+{
+  "name": "jsquad-backend",
+  "version": "1.0.0",
+  "description": "Back-end for all Jubileu's Squad's online services.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herickvinicius/jsquad.git"
+  },
+  "author": "TW-0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/herickvinicius/jsquad/issues"
+  },
+  "homepage": "https://github.com/herickvinicius/jsquad#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

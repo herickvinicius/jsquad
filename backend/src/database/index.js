@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 const dbSocket = process.env.DB_SOCKET;
 const serverPath = process.env.SERVER_PATH;

@@ -1,11 +1,14 @@
 const mongoose = require("mongoose");
+const dotenv = require("dotenv/config");
 
 const dbSocket = process.env.DB_SOCKET;
 const serverPath = process.env.SERVER_PATH;
 const dbName = process.env.DB_NAME;
 
+console.log(`Trying to connect to ${dbSocket}${serverPath}/${dbName}.`);
 mongoose
   .connect(`${dbSocket}${serverPath}/${dbName}`, {
+    // .connect("mongoose://localhost/jsquad", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,

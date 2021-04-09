@@ -8,7 +8,7 @@ const ProductSchema = new mongoose.Schema({
   imgPath: {
     type: String,
     require: true,
-  },
+  }
 });
 
 const Product = mongoose.model("Product", ProductSchema);

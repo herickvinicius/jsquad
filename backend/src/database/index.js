@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const dotenv = require("dotenv/config");
 
 const dbSocket = process.env.DB_SOCKET;
 const serverPath = process.env.SERVER_PATH;

@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-		<header class="nav">
+		<Header/>
+		<!-- <header class="nav">
 			<div class="header--logo">
 				<router-link to="/">
 					<img src="./assets/logo.png" alt="Logo" />
@@ -10,15 +11,17 @@
 				<router-link to="/">Home</router-link>
 				<router-link to="/products">Produtos</router-link>
 			</div>
-		</header>
+		</header>-->
     <router-view/>
   </div>
 </template>
 
 <script>
-
+import Header from './components/Header'
 export default {
-
+  components: {
+		Header,
+  },
 }
 </script>
 
@@ -36,7 +39,10 @@ body {
 }
 
 
+/*
+Apenas para modelo
 .nav {
+
 	position: fixed;
 	z-index: 999;
 	top: 0;
@@ -50,14 +56,11 @@ body {
 	background: transparent;
 	background-color: #181525;
 	transition: all ease 0.5s;
-}
+} */
 
-.menu--flutuante a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+
 .header--logo {
-    height: 2.5rem;
+
 }
 .header--logo img {
     height: 100%;

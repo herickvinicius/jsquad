@@ -1,0 +1,41 @@
+:root{
+	--color-background-branco: #F3F3F3;
+	--color-azul-fraco: #1493AE;
+	--color-preto: #000000;
+	--color-cinze: #8D8D8D;
+	--color-azul-forte: #0600FF;
+	--color-azul-escuro-princ: #181525;
+	--color-azul-escuro-sec: #13111E;
+	--color-azul-escuro-terc: #282246;
+	--color-caramelo: #D69B15;
+	--color-amarelo: #DDB515;
+
+	--color-laranja: #F9732C;
+
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+html, body {
+	background-color: var(--color-background-branco);
+}
+
+a{
+	text-decoration: none;
+	transition: 0.2s opacity;
+}
+
+a:hover {
+	opacity: 0.8;
+}
+
+a.router-link-exact-active {
+  color: #F9732C;
+}
+

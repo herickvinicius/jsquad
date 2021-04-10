@@ -1,12 +1,12 @@
 <template>
 	<div class="all">
-		<div class="texto-chamativo">
-			<p>
-			VOCÊ<br>
-			JÁ DEVE<br>
-			TER OUVIDO<br>
-			FALAR DE NÓS
-		</p>
+			<div class="texto-chamativo">
+				<p class="texto-laranja">VOCÊ</p>
+				<p class="texto-amarelo">JÁ DEVE</p>
+				<p class="texto-laranja">TER OUVIDO</p>
+				<p class="texto-amarelo">FALAR DE</p>
+				<p class="texto-laranja">NÓS</p>
+			<div class="background-texto-chamativo"></div>
 		</div>
 		<div class="imagem-logo">
 			<img src="../assets/jubileus_squad.png" alt="Foto do mascote da jubileus com o nome da marca">
@@ -36,17 +36,24 @@ export default {
 		height: 19.313rem;
 		left: calc(50% - 430px/2 - 331px);
 		top: 81px;
-		text-align: left;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
 
+	}
+	.texto-chamativo p {
+		text-align: left;
 		font-family: Rambla;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 75px;
 		line-height: 92px;
-
-		color: #F9732C;
-
+		color:var(--color-laranja);
 	}
+	.texto-amarelo{
+		color: var(--color-caramelo);
+	}
+
 
 	.imagem-logo img {
 		position: absolute;

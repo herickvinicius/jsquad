@@ -7,7 +7,7 @@ const dbName = process.env.DB_NAME;
 
 console.log(`Trying to connect to ${dbSocket}${serverPath}/${dbName}.`);
 mongoose
-  .connect(`${dbSocket}${serverPath}/${dbName}`, {
+  .connect(`mongodb://localhost/jsquad`, {
     // .connect("mongoose://localhost/jsquad", {
     useNewUrlParser: true,
     useUnifiedTopology: true,

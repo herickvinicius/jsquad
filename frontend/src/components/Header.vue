@@ -3,14 +3,13 @@
     <img class="logoHeader" :src="image" v-on:click="NavigateHome" />
     <nav role="navigation">
       <ul>
-        <li class="items" v-on:click="NavigateHome">HOME</li>
-        <li class="items" v-on:click="NavidatesSobreNos">SOBRE NÓS</li>
-        <li class="items" v-on:click="NavidateMembros">MEMBROS</li>
-        <li class="items" v-on:click="NavidateParceiros">PARCEIROS</li>
-        <li class="items" v-on:click="NavidatePatrocinadores">PATROCINADORES</li>
-				<li class="items" v-on:click="NavidateProdutos">PRODUTOS</li>
-				<li class="items" v-on:click="NavidateContato">CONTATO</li>
-        <li></li>
+        <li ><router-link to="/">HOME</router-link></li>
+        <li ><router-link to="/#sobre">SOBRE NÓS</router-link></li>
+        <li ><router-link to="/#membros">MEMBROS</router-link></li>
+        <li ><router-link to="/#parceiros">PARCEIROS</router-link></li>
+        <li ><router-link to="/#patrocinadores">PATROCINADORES</router-link></li>
+				<li ><router-link to="/produtos">PRODUTOS</router-link></li>
+				<li ><router-link to="/produtos/#contato">CONTATO</router-link></li>
       </ul>
     </nav>
   </div>
@@ -26,29 +25,6 @@ export default {
       image: image,
     };
   },
-  methods: {
-    NavigateHome() {
-      this.$router.push({ name: "Home" });
-    },
-		NavidatesSobreNos() {
-      this.$router.push({ name: "Sobre Nós" });
-    },
-		NavidateMembros() {
-      this.$router.push({ name: "Membros" });
-    },
-		NavidateParceiros() {
-      this.$router.push({ name: "Parceiros" });
-    },
-		NavidatePatrocinadores() {
-      this.$router.push({ name: "Patrocinadores" });
-    },
-		NavidateProdutos() {
-      this.$router.push({ name: "Produtos" });
-    },
-    NavidateContato() {
-      this.$router.push({ name: "Contato" });
-    },
-  }
 };
 </script>
 
@@ -65,7 +41,7 @@ export default {
 	align-items: center;
 	padding: 0 30px;
 	background: transparent;
-	background-color: #181525;
+	background: rgba(24, 21, 37, 0.5);
 	transition: all ease 0.5s;
 }
 .logoHeader {
@@ -99,15 +75,11 @@ li {
 }
 li a {
   color: #fff;
-  cursor: default;
 }
 li:hover {
   cursor: pointer;
 }
-.items:hover {
-  color: #F9732C;
-}
-.items a.router-link-exact-active {
+a.router-link-exact-active {
   color: #F9732C;
 }
 ul li ul {

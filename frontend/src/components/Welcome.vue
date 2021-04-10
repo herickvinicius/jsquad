@@ -27,6 +27,7 @@ export default {
 		height: 100vh;
 		width: 100vw;
 		display: grid;
+
 		background-color: #181525;
 
 	}
@@ -39,7 +40,10 @@ export default {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-
+		color:var(--color-laranja);
+	}
+	.texto-amarelo{
+		color: #D69B15;
 	}
 	.texto-chamativo p {
 		text-align: left;
@@ -48,11 +52,9 @@ export default {
 		font-weight: normal;
 		font-size: 75px;
 		line-height: 92px;
-		color:var(--color-laranja);
+
 	}
-	.texto-amarelo{
-		color: var(--color-caramelo);
-	}
+
 
 
 	.imagem-logo img {

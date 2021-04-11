@@ -1,11 +1,14 @@
 const express = require('express');
+
 const dotenv = require("dotenv/config");
+
+const bodyParser = require('body-parser');
 
 const app = express();
 
-const port = process.env.PORT || 3007; // Verificar outra maneira de ler o .env.
+const port = process.env.PORT || 3006; // Verificar outra maneira de ler o .env.
 
-app.use(express.urlencoded({ extended: false }))
+app.use(express.urlencoded({ extended: false }));
 
 require('./src/controllers/authController')(app);
 

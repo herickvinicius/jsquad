@@ -7,7 +7,7 @@ const dbName = process.env.DB_NAME;
 
 console.log(`Trying to connect to ${dbSocket}${serverPath}/${dbName}.`);
 mongoose
-  .connect(`mongodb://localhost/jsquad`, {
+  .connect('mongodb://localhost/jsquad', {
     // .connect("mongoose://localhost/jsquad", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -19,6 +19,7 @@ mongoose
   .catch((e) => {
     console.log("Não foi possível se conectar ao banco de dados.");
   });
+  
 
 mongoose.Promise = global.Promise;
 

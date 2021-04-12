@@ -1,15 +1,18 @@
 const express = require("express");
 const dotenv = require("dotenv/config");
-const bodyParser = require("body-parser");
+const socketio = require("socket.io");
+const http = require("http");
 
-const port = process.env.PORT || 3006; // Verificar outra maneira de ler o .env.
+const port = process.env.PORT || 3000; // Verificar outra maneira de ler o .env.
 
 const app = express();
+const server = http.createServer(app);
 
+app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 require("./src/controllers/authController")(app);
 
-app.listen(port, () => {
+server.listen(port, () => {
   console.log(`Executing on port ${port}.`);
 });

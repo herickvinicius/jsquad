@@ -8,12 +8,12 @@ router.post("/register", async (req, res) => {
   const { email } = req.body;
 
   try {
-    const user = await User.create(req.body);
-
     //Find in database email exists
-    if (await User.findOne({ email }));
-    console.log(user);
-    return res.status(400).send({ error: "User alredy exists" });
+    if (await User.findOne({ email })) {
+      return res.status(400).send({ error: "User alredy exists" });
+    }
+
+    const user = await User.create(req.body);
 
     //Don't show in finder to database
     user.password = undefined;

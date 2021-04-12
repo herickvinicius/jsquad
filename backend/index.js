@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-const port = process.env.PORT || 3002; // Verificar outra maneira de ler o .env.
+const port = process.env.PORT || 3004; // Verificar outra maneira de ler o .env.
 
 app.use(express.urlencoded({ extended: false }));
 

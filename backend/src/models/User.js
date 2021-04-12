@@ -42,4 +42,4 @@ UserSchema.pre('save', async function (next) {
   this.password = hash;
 
   next();
-});
+})

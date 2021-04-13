@@ -13,6 +13,6 @@ app.use(express.urlencoded({ extended: false }));
 
 require("./src/controllers/authController")(app);
 
-server.listen(port, () => {
+app.listen(port, () => {
   console.log(`Executing on port ${port}.`);
 });

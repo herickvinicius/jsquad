@@ -1,6 +1,8 @@
 <template>
   <div id="header">
-    <img class="logoHeader" :src="image" v-on:click="NavigateHome" />
+		<router-link to="/">
+			<img class="logoHeader" :src="image" />
+		</router-link>
     <nav role="navigation">
       <ul>
         <li ><router-link to="/">HOME</router-link></li>
@@ -40,21 +42,19 @@ export default {
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 30px;
-	background: transparent;
 	background: rgba(24, 21, 37, 0.5);
 	transition: all ease 0.5s;
 }
 .logoHeader {
-	width: 30px;
+	width: 2rem;
   margin-left: 30px;
-	height: 2.5rem;
+	height: 2rem;
 }
 .logoHeader:hover {
   cursor: pointer;
 }
 nav {
   color: white;
-  display: flex;
   align-items: center;
 }
 ul {
@@ -63,25 +63,14 @@ ul {
   padding-left: 0;
 }
 li {
-  color: #fff;
-  display: block;
   float: left;
   padding: 1rem;
-  position: relative;
   text-decoration: none;
-  transition-duration: 0.5s;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 13.5px;
 }
-li a {
-  color: #fff;
-}
-li:hover {
-  cursor: pointer;
-}
-a.router-link-exact-active {
-  color: #F9732C;
-}
+
+
 ul li ul {
   visibility: hidden;
   opacity: 0;
@@ -172,9 +161,6 @@ ul li ul li {
   }
 }
 @media only screen and (max-width: 500px) {
-  .logoHeader {
-    width: 80px;
-  }
   nav {
     width: 30%;
     padding-top: 40px;

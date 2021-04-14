@@ -3,7 +3,7 @@ const bcrypt = require("bcryptjs");
 const User = require("../models/User");
 const router = express.Router();
 const jwt = require("jsonwebtoken");
-const authconfig = require("../auth.json");
+const authConfig = require("../config/auth.json");
 
 function generateToken(params = {}) {
   return jwt.sign({ params }, authConfig.secret, {
@@ -20,10 +20,7 @@ router.post("/register", async (req, res) => {
     const user = await User.create(req.body);
   //Don't show in finder to database
     user.password = undefined;
-    return res.send({ 
-      user,
-      token: generateToken({ id: user.id }),
-     });
+    return res.send( user );
   }catch(err) {
     console.log(err)
     return res.status(400).send({ error: "Registration failed" });
@@ -31,7 +28,7 @@ router.post("/register", async (req, res) => {
 });
 
 router.post("/authenticate", async (req, res) => {
-  const { emai, password }= req.body;
+  const { email, password }= req.body;
   const user = await User.findOne({email}).select('+password');
   
   if(!user)

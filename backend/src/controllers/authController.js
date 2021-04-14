@@ -18,7 +18,7 @@ router.post("/register", async (req, res) => {
     //Don't show in finder to database
     user.password = undefined;
 
-    return res.send({ user });
+    return res.send(user);
   } catch (err) {
     console.log(err);
     return res.status(400).send({ error: "Registration failed" });

@@ -12,25 +12,19 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 require("./src/controllers/authController")(app);
+require("./src/services/websocket")(io);
 
-// WEBSOCKET
-let users = [];
-
-// Inicia o websocket.
-io.on("connection", (socket) => {
-  console.log(`Socket.io: user connected! ID: ${socket.id}`);
-
-  // O evento 'join server' recebe do frontend o nickname, cria o ojeto user e o guarda em users (declarado acima).
-  socket.on("join server", (username) => {
-    const user = {
-      username,
-      id: socket.id,
-    };
-    users.push(user);
-    //E então notifica todos os usuários que existe um novo user conectado.
-    io.emit("new user", users);
-  });
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/index.html");
 });
+
+app.use(
+  "/lib/fontawesome",
+  express.static("node_modules/@fortawesome/fontawesome-free")
+);
+app.use("/lib/socket.io", express.static("node_modules/socket.io/client-dist"));
+
+app.use(express.static("public"));
 
 // HTTP
 server.listen(port, () => {

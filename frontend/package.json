@@ -8,13 +8,14 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue-awesome": "^4.0.2",
-    "vue-carousel": "^0.18.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
+    "bulma": "^0.9.2",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
+    "vue-awesome": "^4.0.2",
+    "vue-carousel": "^0.18.0",
     "vue-router": "^3.2.0",
-    "vuex": "^3.1.2"
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

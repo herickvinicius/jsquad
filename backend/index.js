@@ -12,6 +12,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 require("./src/controllers/authController")(app);
+require("./src/controllers/jsquadController")(app);
+require("./src/config/multer")(app);
 require("./src/services/websocket")(io);
 
 app.get("/", (req, res) => {

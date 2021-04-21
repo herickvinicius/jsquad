@@ -4,10 +4,10 @@ const path = require("path");
 const crypto = require("crypto");
 
 const multerConfig = {
-  dest: path.resolve(__dirname, "..", "..", "tmp", "uploads"),
+  dest: path.resolve(__dirname, "..", "..", "uploads"),
   storage: multer.diskStorage({
     destination: (req, file, cb) => {
-      cb(null, path.resolve(__dirname, "..", "..", "tmp", "uploads"));
+      cb(null, path.resolve(__dirname, "..", "..", "uploads"));
     },
     filename: (req, file, cb) => {
       crypto.randomBytes(16, (err, hash) => {
@@ -24,10 +24,11 @@ const multerConfig = {
   },
   fileFilter: (req, file, cb) => {
     const allowedMimes = [
-        "image/jpeg",
-        "image/pjpeg", 
-        "image/png",
-        "image/jpg"];
+      "image/jpeg",
+      "image/pjpeg",
+      "image/png",
+      "image/jpg",
+    ];
 
     if (allowedMimes.includes(file.mimetype)) {
       cb(null, true);

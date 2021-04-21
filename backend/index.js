@@ -31,12 +31,6 @@ require("./src/controllers/productController.js")(app);
 //   res.sendFile(__dirname + "/index.html");
 // });
 
-app.post("/products", multer(multerConfig).single("image"), (req, res) => {
-  console.log(req.file);
-  console.log(req.body.productName);
-  return res.json({ OK: "Image sent successfully." });
-});
-
 // HTTP
 app.listen(port, () => {
   console.log(`Executing on port ${port}.`);

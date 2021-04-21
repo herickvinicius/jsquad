@@ -15,6 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 
 require("./src/controllers/authController")(app);
 require("./src/controllers/jsquadController")(app);
+require("./src/controllers/productController.js")(app);
 //require("./src/config/multer")(app);
 require("./src/services/websocket")(io);
 
@@ -22,9 +23,10 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
 
-app.post("/posts", multer(multerConfig).single("file"), (req, res) => {
+app.post("/products", multer(multerConfig).single("image"), (req, res) => {
   console.log(req.file);
-  return res.json({ hello: "OLA LUIZ" });
+  console.log(req.body.productName);
+  return res.json({ OK:"Image sent successfully."});
 });
 
 app.use(

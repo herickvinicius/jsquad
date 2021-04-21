@@ -8,6 +8,13 @@ const ProductSchema = new mongoose.Schema({
   imgPath: {
     type: String,
     require: true,
+  },
+  size:{
+    type: Number,
+    require: true,
+  },
+  key:{
+    type: String
   }
 });
 

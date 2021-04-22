@@ -40,3 +40,61 @@ a.router-link-exact-active {
   color: #F9732C;
 }
 
+.rodape {
+
+	position: relative;
+	width: 1366px;
+	height: 200px;
+	left: calc(50% - 1366px/2);
+	bottom: 0px;
+	
+	/* azul escuro */
+	
+	background: #181525;
+	
+	}
+	.imagem{
+		
+	}
+
+	.insta {
+
+position: absolute;
+left: 78.4%;
+right: 18.48%;
+top: 16.5%;
+bottom: 62.23%;
+
+background: #F9732C;
+	}
+
+	.face {
+
+		position: absolute;
+left: 83.75%;
+right: 13.14%;
+top: 16.5%;
+bottom: 62.23%;
+
+background: #F9732C;		
+			}
+	.youtube {
+
+		position: absolute;
+		left: 78.4%;
+		right: 18.48%;
+		top: 54.5%;
+		bottom: 24.23%;
+		
+		background: #F9732C;
+	}
+	.whats {
+
+		position: absolute;
+		left: 83.75%;
+		right: 13.14%;
+		top: 54.5%;
+		bottom: 24.23%;
+		
+		background: #F9732C;
+	}

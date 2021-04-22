@@ -15,7 +15,13 @@
         alt="Foto do mascote da jubileus com o nome da marca"
       />
     </div>
+
+    
+    
   </div>
+
+
+
 </template>
 
 <script>
@@ -61,4 +67,8 @@ export default {};
 .imagem-logo img {
   height: 31.875rem;
 }
+
+
+
+
 </style>

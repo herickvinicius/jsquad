@@ -3,6 +3,7 @@
 		<Header/>
 		<Welcome />
 		<SobreNos />
+		<Membros />
 
   </div>
 </template>
@@ -13,13 +14,15 @@
 import Header from '@/components/Header.vue'
 import Welcome from '@/components/Welcome.vue'
 import SobreNos from '@/components/SobreNos.vue'
+import Membros from '@/components/Membros.vue'
 
 export default {
   name: 'Home',
   components: {
 		Header,
 		Welcome,
-		SobreNos
+		SobreNos,
+		Membros,
   }
 }
 </script>

@@ -37,7 +37,7 @@
       </div>
       <div class="column is-full">
         <p>
-          Missão: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+          <strong>Missão</strong>: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
           do eiusmod tempor incididunt ut labore et dolore magna aliqua velit
           esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
           cupidatat non proident, sunt in.
@@ -49,7 +49,7 @@
 
       <div class="column is-full">
         <p>
-          Visão: Ut enimad minim veniam, quis nostrud exercitation ullamco
+          <strong>Visão</strong>: Ut enimad minim veniam, quis nostrud exercitation ullamco
           laboris nisi ut aliquip ex ea commodo consequat sit amet, consectetur
           adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Nisl rhoncus mattis rhoncus urna. Ornare aenean euismod
@@ -62,7 +62,7 @@
 
       <div class="column is-full">
         <p>
-          Valores: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+          <strong>Valores</strong>: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
           do eiusmod tempor incididunt ut labore et dolore magna aliqua velit
           esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
           cupidatat non proident, sunt in.
@@ -83,12 +83,15 @@ export default {};
   display: flex;
   flex-direction: row;
   justify-content: center; */
+
+ 
+
   height: 100vh;
   padding: 0px 150px 0px 150px;
 }
 img.img-conteudo {
-  width: 500px;
-  height: 500px;
+  width: 368pxpx;
+  height: 368pxpx;
 }
 
 .barra--horizontal--paragrafos {

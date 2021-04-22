@@ -39,6 +39,6 @@
 	.all--membros {
 
   height: 100vh;
-  padding: 0px 150px 0px 150px;
+  padding: 350px 150px 50px 150px;
 }
 </style>

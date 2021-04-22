@@ -1,16 +1,10 @@
 <template>
-  <div id="sobre" class="all--sobre">
-    <div class="titulo-com-barra">
-      <div class="container--titulo">
-        <div class="barra--laranja--titulo">
-          <h1 class="titulo">SOBRE NÓS</h1>
-        </div>
-      </div>
-    </div>
-    <div class="conteudo columns is-multiline ">
+  <div class="all--sobre">
+		<TituloComBarra :titulo="titulo"/>
+    <div class="conteudo columns is-multiline">
       <div class="column is-4 is-offset-0">
         <img
-          class="img-conteudo img-responsive"
+          class="img-conteudo"
           src="@/assets/Jubileus-squad-fumdo.png"
           alt="Logo do time"
         />
@@ -74,7 +68,16 @@
 </template>
 
 <script>
-export default {};
+	import TituloComBarra from './TituloComBarra.vue';
+	export default {
+		components: { TituloComBarra },
+		data(){
+			return{
+				titulo: 'Sobre Nós',
+			}
+		}
+
+	}
 </script>
 
 <style>
@@ -83,10 +86,11 @@ export default {};
   display: flex;
   flex-direction: row;
   justify-content: center; */
+	width: 100vw;
   height: 100vh;
   padding: 0px 150px 0px 150px;
 }
-img.img-conteudo {
+.img-conteudo {
   width: 500px;
   height: 500px;
 }
@@ -101,34 +105,4 @@ img.img-conteudo {
   border-top: 3px solid #f9732c;
 }
 
-/* Css do titulo com a barra */
-h1.titulo {
-  width: 236px;
-  margin-left: 18px;
-  font-family: Rambla;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 50px;
-  line-height: 61px;
-  color: black;
-}
-.titulo-com-barra {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 97px;
-}
-.container--titulo {
-  width: 200px;
-}
-
-.barra--laranja--titulo {
-  margin-top: 205px;
-  width: 10px;
-  height: 58px;
-  border-left: 5px solid #f9732c;
-}
-/* Css do titulo com a barra */
 </style>

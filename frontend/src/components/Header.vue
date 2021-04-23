@@ -42,8 +42,7 @@ export default {
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 30px;
-	background: rgba(24, 21, 37, 0.5);
-	transition: all ease 0.5s;
+	background: linear-gradient(180deg, #181525 70%, rgba(24, 21, 37, 0) 100%);
 }
 .logoHeader {
 	width: 2rem;

@@ -1,5 +1,6 @@
 <template>
   <div id="sobre" class="all--sobre">
+    <Header/>
     <div class="titulo-com-barra">
       <div class="container--titulo">
         <div class="barra--laranja--titulo">
@@ -74,7 +75,9 @@
 </template>
 
 <script>
-export default {};
+import Header from './Header.vue';
+export default {
+  components: { Header },};
 </script>
 
 <style>
@@ -83,10 +86,7 @@ export default {};
   display: flex;
   flex-direction: row;
   justify-content: center; */
-
- 
-
-  height: 100vh;
+    height: 110vh;
   padding: 0px 150px 0px 150px;
 }
 img.img-conteudo {
@@ -121,15 +121,15 @@ h1.titulo {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 97px;
+  margin-bottom: 100px;
 }
 .container--titulo {
   width: 200px;
 }
 
 .barra--laranja--titulo {
-  margin-top: 205px;
-  width: 10px;
+  margin-top: 105px;
+  width: 50px;
   height: 58px;
   border-left: 5px solid #f9732c;
 }

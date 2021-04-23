@@ -1,45 +1,8 @@
-:root{
-	--color-background-branco: #F3F3F3;
-	--color-azul-fraco: #1493AE;
-	--color-preto: #000000;
-	--color-cinze: #8D8D8D;
-	--color-azul-forte: #0600FF;
-	--color-azul-escuro-princ: #181525;
-	--color-azul-escuro-sec: #13111E;
-	--color-azul-escuro-terc: #282246;
-	--color-caramelo: #D69B15;
-	--color-amarelo: #DDB515;
-
-	--color-laranja: #F9732C;
-
-}
-
-* {
-
-	font-family: Roboto, Helvetica, Arial, sans-serif;
-
-}
-
-html, body {
-	background-color: var(--color-background-branco);
-}
-ul{
-	list-style: none;
-}
-a{
-	text-decoration: none;
-	transition: 0.2s opacity;
-	color: #fff;
-}
-
-a:hover {
-	color: #F9732C;
-}
-
-a.router-link-exact-active {
-  color: #F9732C;
-}
-
+<template>
+    <div class="">
+    </div>
+</template>
+<style>
 .rodape {
 	position: relative;
 	width: 1366px;
@@ -87,3 +50,4 @@ a.router-link-exact-active {
 	left: 144px;
 	top: 50px;
 }
+</style>

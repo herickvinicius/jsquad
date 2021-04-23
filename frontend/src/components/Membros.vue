@@ -2,7 +2,7 @@
 <div class="container">
     <div id="membros" class="all--membros">
         <Header/>
-        <div class="titulo-com-barra">
+        <div class="titulo-com-barraMembros">
             <div class="container--titulo">
                 <div class="barra--laranja--titulo">
                     <h1 class="titulo">MEMBROS</h1>
@@ -178,26 +178,27 @@ h1.titulo {
   display: flex;
   flex-direction: row;
   justify-content: center; 
-  height: 100vh;  
-  padding: 0px 50px 0px 50px;
-
-
-  
+  height: 60vh; 
+  padding: 180px 50px 0px 50px;
+  }
+.barra--laranja--titulo {
+  margin-top: 45px;
+  width: 90px;
+  height: 58px;
+  border-left: 5px solid #f9732c;
 }
+
 /* Css do titulo com a barra */
-.titulo-com-barra {
+.titulo-com-barraMembros {
   align-items: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 97px;
-
-
+  margin-bottom: 250px;
 }
 .container--titulo {
   width: 200px;
-
 
 }
 

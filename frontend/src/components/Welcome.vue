@@ -53,7 +53,6 @@ export default {};
   font-size: 65px;
   line-height: 85px;
 }
-
 .texto-amarelo {
   color: #d69b15;
 }

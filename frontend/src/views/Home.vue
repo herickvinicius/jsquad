@@ -4,7 +4,9 @@
 		<Welcome />
 		<SobreNos />
 		<Membros />
-
+		<Modalidades />
+		<Parceiros />
+		<Rodape />
   </div>
 </template>
 
@@ -15,6 +17,10 @@ import Header from '@/components/Header.vue'
 import Welcome from '@/components/Welcome.vue'
 import SobreNos from '@/components/SobreNos.vue'
 import Membros from '@/components/Membros.vue'
+import Modalidades from '@/components/Modalidades.vue'
+import Parceiros from '@/components/Parceiros.vue'
+import Rodape from '@/components/Rodape.vue'
+
 
 export default {
   name: 'Home',
@@ -23,6 +29,9 @@ export default {
 		Welcome,
 		SobreNos,
 		Membros,
+		Modalidades,
+		Parceiros,
+		Rodape,
   }
 }
 </script>

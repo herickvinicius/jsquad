@@ -20,7 +20,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -29,7 +29,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -38,7 +38,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -47,7 +47,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -56,7 +56,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -65,7 +65,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -74,7 +74,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -83,7 +83,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -92,7 +92,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -101,7 +101,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -110,7 +110,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -119,7 +119,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -128,7 +128,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -137,7 +137,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -146,7 +146,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -155,7 +155,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -164,7 +164,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -173,7 +173,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -182,7 +182,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -191,7 +191,7 @@
     <div class="card">
       <img src="@/assets/Jubileus-squad-fumdo.png" class="card-img-top" alt="@/assets/Jubileus-squad-fumdo.png">
       <div class="card-body">
-        <h6 class="card-title">Nome Do Protudo
+        <h6 class="card-title">Nome do produto
 		</h6>
       </div>
     </div>
@@ -204,10 +204,10 @@
 	</div>
 
 <div class="container">
-	<div class="titulo-com-barra">
+	<div class="titulo-com-barraContato">
       <div class="container--titulo">
         <div class="barra--laranja--titulo">
-          <h1 class="titulo">CONTATOS</h1>
+          <h1 class="titulo">CONTATO</h1>
         </div>
       </div>
     </div>
@@ -232,7 +232,7 @@
 			<label for="exampleFormControlInput1" class="form-label">Mensagem</label>
 			<input type="mensagem" class="form-control" id="exampleFormControlInput1" placeholder="Digite aqui">
 		</div>
-		<input class="btn btn-dark" type="submit" value="Enviar">
+		<button type="button" class="btn btn-dark">Enviar</button>
     </div>
 		
     </div>
@@ -250,10 +250,17 @@
 
 
 	<div class="rodape">
+    <div class= "logorodape">
+        <img 
+        src="@/assets/jubileus_squad2.png" 
+        alt=""
+        />
+    </div>
 	<div><i class="insta">Insta</i></div>
 	<div><i class="face">Face</i></div>
 	<div><i class="whats">zap</i></div>
 	<div><i class="youtube">yoTub</i></div>
+  <div><i class="arearestrita">Area restrita</i></div>
 	</div>
 
 	</div>	
@@ -293,19 +300,34 @@ h1.titulo {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 97px;
+  margin-bottom: 57px;
 }
+.titulo-com-barraContato{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 57px;
+}
+
 .container--titulo {
   width: 200px;
   
 }
 
 .barra--laranja--titulo {
-  margin-top: 205px;
+  margin-top: 100px;
   width: 10px;
   height: 58px;
   border-left: 5px solid #f9732c;
 }
 /* Css do titulo com a barra */
-
+.logorodape{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 144px;
+  top: 50px;
+}
 </style>

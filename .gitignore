@@ -109,3 +109,6 @@ dist
 #mock
 /backend/public
 /backend/index.html
+
+# Local Storage
+/backend/uploads

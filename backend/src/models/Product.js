@@ -1,21 +1,15 @@
 const mongoose = require("../database");
 
 const ProductSchema = new mongoose.Schema({
-  name: {
+  productName: {
+    type: String,
+    require: true,
+    unique: true,
+  },
+  path: {
     type: String,
     require: true,
   },
-  imgPath: {
-    type: String,
-    require: true,
-  },
-  size:{
-    type: Number,
-    require: true,
-  },
-  key:{
-    type: String
-  }
 });
 
 const Product = mongoose.model("Product", ProductSchema);

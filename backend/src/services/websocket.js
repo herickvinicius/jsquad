@@ -7,6 +7,9 @@ function handleWebsockets(io) {
   io.of("/ws").on("connection", (socket) => {
     console.log(`Socket.io: user connected! ID: ${socket.id}`);
 
+    socket.join("global");
+    console.log(socket.rooms);
+
     // O evento 'join server' recebe do frontend o nickname, cria o ojeto user e o guarda em users (declarado acima).
     socket.on("join server", (username) => {
       // Quando houver uma conexão, o usuário deve ser inserido no array de usuários logados.

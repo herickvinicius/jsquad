@@ -50,11 +50,12 @@ a.router-link-exact-active {
 	}
 .insta {
 	position: absolute;
-	left: 78.4%;
-	right: 18.48%;
-	top: 16.5%;
-	bottom: 62.23%;
+	left: 78.4px;
+	right: 18.48px;
+	top: 16.5px;
+	bottom: 62.23px;
 	background: #F9732C;
+	border-radius: 10px;
 	}
 .face {
 	position: absolute;
@@ -62,7 +63,8 @@ a.router-link-exact-active {
 	right: 13.14%;
 	top: 16.5%;
 	bottom: 62.23%;
-	background: #F9732C;		
+	background: #F9732C;
+	border-radius: 10px;	
 	}
 .youtube {
 	position: absolute;
@@ -71,6 +73,7 @@ a.router-link-exact-active {
 	top: 54.5%;
 	bottom: 24.23%;
 	background: #F9732C;
+	border-radius: 10px;
 	}
 .whats {
 	position: absolute;
@@ -79,6 +82,7 @@ a.router-link-exact-active {
 	top: 54.5%;
 	bottom: 24.23%;
 	background: #F9732C;
+	border-radius: 10px;
 	}
 .logorodape{
 	position: absolute;
@@ -87,3 +91,18 @@ a.router-link-exact-active {
 	left: 144px;
 	top: 50px;
 }
+.logorodape{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 144px;
+	top: 50px;
+  }
+  .arearestrita{
+	position: absolute;
+	width: 100px;
+	height: 20px;
+	left: 136vh;
+	top: 170px;
+	color: #f9732c;
+  }

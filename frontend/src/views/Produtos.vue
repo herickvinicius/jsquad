@@ -253,14 +253,28 @@
     <div class= "logorodape">
         <img 
         src="@/assets/jubileus_squad2.png" 
-        alt=""
+        alt style=width:35px;>
         />
     </div>
-	<div><i class="insta">Insta</i></div>
-	<div><i class="face">Face</i></div>
-	<div><i class="whats">zap</i></div>
-	<div><i class="youtube">yoTub</i></div>
-  <div><i class="arearestrita">Area restrita</i></div>
+	<div class="insta">
+		<img src="@/assets/iconmonstr-instagram-13.svg" 
+    alt="" style="width: 35px;height: 45px;margin-left: 3px;">
+  </div>
+	<div class="face">
+		<img src="@/assets/facebook.svg" 
+		alt="" style="width: 35px;height: 45px;margin-left: 3px;">
+		>
+	</div>
+	<div class="whats">
+		<img src="@/assets/iconmonstr-whatsapp-3.svg" 
+		alt="" style="width: 35px;height: 45px;margin-left: 3px;">
+		>
+	</div>
+	<div class="youtube">
+		<img src="@/assets/iconmonstr-youtube-3.svg"
+		alt="" style="width: 35px;height: 45px;margin-left: 3px;">
+	</div>
+  <div><p class="arearestrita">Area restrita</p></div>
 	</div>
 
 	</div>	
@@ -315,7 +329,6 @@ h1.titulo {
   width: 200px;
   
 }
-
 .barra--laranja--titulo {
   margin-top: 100px;
   width: 10px;
@@ -329,5 +342,13 @@ h1.titulo {
   height: 100px;
   left: 144px;
   top: 50px;
+}
+.arearestrita{
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  left: 136vh;
+  top: 170px;
+  color: #f9732c;
 }
 </style>

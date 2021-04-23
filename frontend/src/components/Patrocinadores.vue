@@ -1,4 +1,7 @@
 <template>
+<div class="Patrocinadores">  
+<Header />
+
 <div class="containerPatrocinio">
     <div class="titulo-com-barraPatrocinadores">
         <div class="container--tituloPatrocinio">
@@ -52,22 +55,19 @@
     <div class= "logorodape">
         <img 
         src="@/assets/jubileus_squad2.png" 
-        alt style=width:35px;>
-        />
+        alt ="">
     </div>
 	<div class="insta">
 		<img src="@/assets/iconmonstr-instagram-13.svg" 
-    alt="" style="width: 35px;height: 45px;margin-left: 3px;">
+    alt="" style="width: 35px;height: 45px;margin-left: 4.5px;">
   </div>
 	<div class="face">
 		<img src="@/assets/facebook.svg" 
 		alt="" style="width: 35px;height: 45px;margin-left: 3px;">
-		>
 	</div>
 	<div class="whats">
 		<img src="@/assets/iconmonstr-whatsapp-3.svg" 
-		alt="" style="width: 35px;height: 45px;margin-left: 3px;">
-		>
+		alt="" style="width: 35px;height: 45px;margin-left: 4.5px;">
 	</div>
 	<div class="youtube">
 		<img src="@/assets/iconmonstr-youtube-3.svg"
@@ -76,7 +76,22 @@
   <div><p class="arearestrita">Area restrita</p></div>
 	</div>
 	</div>
+</div>  
+ 
 </template>
+
+
+<script>
+import Header from '@/components/Header.vue'
+
+export default {
+	name: 'Patrocinadores',
+	components:{
+		Header
+	}
+}
+</script>
+
 <style>
 h1.titulo {
   width: 380px;

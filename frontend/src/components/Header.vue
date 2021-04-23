@@ -6,12 +6,12 @@
     <nav role="navigation">
       <ul>
         <li ><router-link to="/">HOME</router-link></li>
-        <li ><router-link to="/#sobre">SOBRE NÓS</router-link></li>
-        <li ><router-link to="/#membros">MEMBROS</router-link></li>
-        <li ><router-link to="/#parceiros">PARCEIROS</router-link></li>
-        <li ><router-link to="/#patrocinadores">PATROCINADORES</router-link></li>
+        <li ><router-link to="/sobre">SOBRE NÓS</router-link></li>
+        <li ><router-link to="/membros">MEMBROS</router-link></li>
+        <li ><router-link to="/parceiros">PARCEIROS</router-link></li>
+        <li ><router-link to="/patrocinadores">PATROCINADORES</router-link></li>
 				<li ><router-link to="/produtos">PRODUTOS</router-link></li>
-				<li ><router-link to="/produtos/#contato">CONTATO</router-link></li>
+				<li ><router-link to="/produtos/contato">CONTATO</router-link></li>
       </ul>
     </nav>
   </div>

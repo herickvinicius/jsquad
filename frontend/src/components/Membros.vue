@@ -162,6 +162,23 @@
 
 </template>
 
+<script>
+import Header from '@/components/Header.vue'
+
+export default {
+	name: 'Membros', 
+	components:{
+		Header
+	}
+
+  
+}
+
+
+
+
+</script>
+
 <style>
 h1.titulo {
   width: 236px;

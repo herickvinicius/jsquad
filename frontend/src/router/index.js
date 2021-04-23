@@ -10,10 +10,35 @@ const routes = [
     name: 'Home',
     component: Home
   },
-	{ path: "/#sobre", name: "Sobre Nós", component: Home },
-	{ path: "/#membros", name: "Membros", component: Home },
-	{ path: "/#parceiros", name: "Parceiros", component: Home },
-	{ path: "/#patrocinadores", name: "Patrocinadores", component: Home },
+	{ path: "/sobre", 
+  name: "Sobre Nós", 
+  component: () => import(/* webpackChunkName: "sobre" */ '../components/SobreNos.vue')},
+
+	{ 
+  path: "/membros", 
+  name: "Membros", 
+
+  component: () => import(/* webpackChunkName: "membros" */ '../components/Membros.vue')
+  
+  
+},
+
+	{ 
+    path: "/parceiros", 
+    name: "Parceiros", 
+
+    component: () => import(/* webpackChunkName: "parceiros" */ '../components/Parceiros.vue')
+  
+  },
+
+	{
+    
+   path: '/patrocinadores', 
+   name: 'Patrocinadores',
+
+  component: () => import(/* webpackChunkName: "patrocinadores" */ '../components/Patrocinadores.vue')
+
+  },
   {
     path: '/produtos',
     name: 'Produtos',
@@ -23,12 +48,12 @@ const routes = [
     component: () => import(/* webpackChunkName: "produtos" */ '../views/Produtos.vue')
   },
 	{
-    path: '/produtos/#contato',
-    name: 'Contato',
+    path: '/produtos/contato',
+    name: 'Contato',  
     // route level code-splitting
     // this generates a separate chunk (produtos.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "produtos" */ '../views/Produtos.vue')
+    component: () => import(/* webpackChunkName: "contatos" */ '../views/Produtos.vue')
   },
 
 ]

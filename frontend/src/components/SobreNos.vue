@@ -2,7 +2,7 @@
   <div id="sobre" class="all--sobre">
     <Header/>
     <div class="titulo-com-barra">
-      <div class="container--titulo">
+        <div class="container--titulo">
         <div class="barra--laranja--titulo">
           <h1 class="titulo">SOBRE NÓS</h1>
         </div>
@@ -75,9 +75,14 @@
 </template>
 
 <script>
-import Header from './Header.vue';
+import Header from '@/components/Header.vue'
+
 export default {
-  components: { Header },};
+	name: 'sobre',
+	components:{
+		Header
+	}
+}
 </script>
 
 <style>
@@ -86,7 +91,7 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: center; */
-    height: 110vh;
+  height: 100vh;
   padding: 0px 150px 0px 150px;
 }
 img.img-conteudo {

@@ -1,7 +1,7 @@
 <template>
 <div class="container">
 	<div class="titulo-com-barraModalidades">
-        <div class="container--titulo">
+        <div class="container--tituloModalidades">
             <div class="barra--laranja--titulo">
                 <h1 class="titulo">MODALIDADES</h1>
             </div>
@@ -53,8 +53,6 @@ h1.titulo {
   font-family: Rambla;
   font-style: normal;
   font-weight: normal;
-  font-size: 50px;
-  line-height: 61px;
   color: black;
 }
 .titulo-com-barraModalidades {
@@ -63,7 +61,7 @@ h1.titulo {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 57px;
+  margin-bottom: 87px;
   padding: 0px, 0px, 100px, 0px;
 }
 .fundoModalidades{
@@ -75,8 +73,9 @@ h1.titulo {
 
     background: linear-gradient(180deg, #F9732C 0%, rgba(214, 155, 21, 0) 100%);
 }
-.container--titulo {
+.container--tituloModalidades {
   width: 200px;
+
   
 }
 .leaguefoto{

@@ -1,5 +1,7 @@
-<template>     
+<template>
+    
  <div class="container">
+   <Header /> 
      <div class="fundoParceiros">
         <div class="titulo-com-barraParceiros">
             <div class="container--titulo">
@@ -103,6 +105,19 @@
 </div>
 </div>
 </template>
+
+<script>
+import Header from '@/components/Header.vue'
+
+export default {
+	name: 'Parceiros',
+	components:{
+		Header
+	}
+}
+
+
+</script>
 
 <style>
 h1.tituloParceiros {

@@ -288,10 +288,10 @@
 import Header from '@/components/Header.vue'
 
 export default {
-	name: 'Produtos',
+	name: 'Produtos', 
 	components:{
 		Header
-	}
+	}  
 }
 </script>
 

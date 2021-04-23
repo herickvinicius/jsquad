@@ -54,8 +54,7 @@
 	<div class="rodape">
     <div class= "logorodape">
         <img 
-        src="@/assets/jubileus_squad2.png" 
-        alt ="">
+        src="@/assets/jubileus_squad2.png">
     </div>
 	<div class="insta">
 		<img src="@/assets/iconmonstr-instagram-13.svg" 

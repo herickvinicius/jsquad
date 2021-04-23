@@ -252,8 +252,7 @@
 	<div class="rodape">
     <div class= "logorodape">
         <img 
-        src="@/assets/jubileus_squad2.png" 
-        alt style=width:35px;>
+        src="@/assets/jubileus_squad2.png" >
         />
     </div>
 	<div class="insta">

@@ -7,7 +7,6 @@
 		<Modalidades />
 		<Parceiros />
 		<Patrocinadores />
-		<Rodape />
   </div>
 </template>
 
@@ -21,7 +20,6 @@ import Membros from '@/components/Membros.vue'
 import Modalidades from '@/components/Modalidades.vue'
 import Parceiros from '@/components/Parceiros.vue'
 import Patrocinadores from '@/components/Patrocinadores.vue'
-import Rodape from '@/components/Rodape.vue'
 
 
 export default {
@@ -34,7 +32,6 @@ export default {
 		Modalidades,
 		Parceiros,
 		Patrocinadores,
-		Rodape,
 
   }
 }

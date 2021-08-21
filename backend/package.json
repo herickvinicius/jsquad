@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/herickvinicius/jsquad.git"
+    "url": "git+https://github.com/luizcode/Jsquad.git"
   },
   "author": "TW-0",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/herickvinicius/jsquad/issues"
+    "url": "https://github.com/luizcode/Jsquad.git/issues"
   },
-  "homepage": "https://github.com/herickvinicius/jsquad#readme",
+  "homepage": "https://github.com/luizcode/Jsquad.git#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
